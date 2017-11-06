@@ -3,7 +3,5 @@
 Для работы тестов необходимо установить следующие пакеты
 
 ```sh
-
 yarn add enzyme enzyme-adapter-react-16
-co
 ```
