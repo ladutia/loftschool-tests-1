@@ -26,8 +26,10 @@ describe('homework', () => {
   it('contain footer', () => {
     expect(wrapper.find('footer')).toHaveLength(1);
   });
+
   it('footer contain p with Loftschool word', () => {
     const p = wrapper.find('footer p');
+
     expect(p).toHaveLength(1);
     expect(p.contains('Loftschool')).toBeTruthy();
   });
